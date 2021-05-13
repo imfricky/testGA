@@ -13,7 +13,7 @@ jobs:
   
   compile:
     runs-on: ubuntu-latest
-    name: Running Java ${{ matrix.java }} compile
+    name: Running Java compile
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 1.8
