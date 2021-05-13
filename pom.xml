@@ -29,7 +29,6 @@
 		</dependency>
 	</dependencies>
 
-	</distributionManagement>
 	
 	<build>
 		<plugins>
@@ -47,5 +46,6 @@
 		    <name>NoticeBoard Simple CRUD application</name>
 		    <url>https://maven.pkg.github.com/imfricky/testGA</url> 
 		  </repository>
-
+	
+	</distributionManagement>
 </project>
