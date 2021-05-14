@@ -39,13 +39,11 @@
 		</plugins>
 	</build>
 	
-	<distributionManagement>
-  
-		  <repository>
-		    <id>github</id>
-		    <name>NoticeBoard Simple CRUD application</name>
-		    <url>https://maven.pkg.github.com/imfricky/testGA</url> 
-		  </repository>
-	
-	</distributionManagement>
+	  <distributionManagement>
+	    <repository>
+	      <id>github</id>
+	      <name>GitHub Packages</name>
+	      <url>https://maven.pkg.github.com/imfricky/testGA</url>
+	    </repository>
+	  </distributionManagement>
 </project>
